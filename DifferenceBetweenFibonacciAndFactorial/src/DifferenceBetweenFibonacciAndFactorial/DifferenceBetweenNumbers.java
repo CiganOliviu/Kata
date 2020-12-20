@@ -17,8 +17,8 @@ public class DifferenceBetweenNumbers {
         Factorial = FactorialProcessorFactoryObject.GetFactorialProcessor();
     }
 
-    public int RealiseSubtractionBetweenFibonacciAndFactorial() {
+    public int RealiseSubtractionBetweenFibonacciAndFactorial(int Factor) {
 
-        return Fibonacci.GetFibonacciNumber(8) - Factorial.GetFactorialNumber(8);
+        return Fibonacci.GetFibonacciNumber(Factor) - Factorial.GetFactorialNumber(Factor);
     }
 }

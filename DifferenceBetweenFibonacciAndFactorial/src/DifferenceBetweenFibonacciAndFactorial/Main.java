@@ -17,7 +17,7 @@ public class Main {
 
         DifferenceBetweenNumbers differenceBetweenNumbers = new DifferenceBetweenNumbers();
 
-        return differenceBetweenNumbers.RealiseSubtractionBetweenFibonacciAndFactorial();
+        return differenceBetweenNumbers.RealiseSubtractionBetweenFibonacciAndFactorial(3);
     }
 
     private static void RunTestsForFactorial() {
